@@ -321,16 +321,16 @@ Implement the Pass Slip & Attendance Logbook module as a Next.js 14 (App Router)
 # Post-Implementation Fixes
 
 - [ ] 21. Fix kiosk authentication issues
-  - [ ] 21.1 Resolve authentication required error when saving forms from kiosk
+  - [~] 21.1 Resolve authentication required error when saving forms from kiosk
     - Investigate and fix the "authentication required" error occurring when users save forms from kiosk mode; ensure kiosk users can submit attendance and pass slip forms without authentication prompts; verify guest/public access works properly for kiosk functionality; ensure forms are properly saved to database from kiosk mode
     - _Requirements: 18.1, 18.2, 14.1_
 
 - [ ] 22. Implement admin record viewing
-  - [ ] 22.1 Enable admin to view all submitted records
+  - [~] 22.1 Enable admin to view all submitted records
     - Implement admin interface to view all submitted attendance and pass slip records; ensure records display all submitted information clearly in organized format; admin should have access to comprehensive record listings for both modules
     - _Requirements: 6.1, 10.1, 14.4, 14.5_
 
 - [ ] 23. Add print functionality for records
-  - [ ] 23.1 Implement print capability for attendance and pass slip records
+  - [~] 23.1 Implement print capability for attendance and pass slip records
     - Add print functionality allowing admin to print individual attendance and pass slip records; ensure print format matches official form layouts; verify print functionality works across different browsers with proper formatting; include print preview functionality
     - _Requirements: 7.1, 7.8_
